@@ -1,0 +1,393 @@
+@font-face {
+font-family: 'Spartan'; /* Gewünschter Name */
+font-style: normal;
+font-weight: 400;
+ src: url('../fonts/Spartan-Regular.ttf');
+           /* für IE9 */
+ src: url('../fonts/Spartan-Regular.ttf')
+           format('embedded-opentype'),
+           /* für IE6-IE8 */
+      url('../fonts/Spartan-Regular.ttf')
+           format('woff'),
+          /* für moderne Browser */
+      url('../fonts/Spartan-Regular.ttf')
+           format('truetype');
+         /* für Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'Spartan'; /* Gewünschter Name */
+font-style: normal;
+font-weight: 700;
+ src: url('../fonts/Spartan-Bold.ttf');
+           /* für IE9 */
+ src: url('../fonts/Spartan-Bold.ttf')
+           format('embedded-opentype'),
+           /* für IE6-IE8 */
+      url('../fonts/Spartan-Bold.ttf')
+           format('woff'),
+          /* für moderne Browser */
+      url('../fonts/Spartan-Bold.ttf')
+           format('truetype');
+         /* für Safari, Android, iOS */
+}
+
+body {
+  width: auto;
+  font-family: 'Spartan', sans-serif;
+  margin-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+
+}
+
+
+div {
+  margin-bottom: 0;
+}
+
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+}
+
+h2 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+h3 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+}
+
+h4 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+p {
+margin: 0;
+overflow: hidden;
+transition: max-height 1.5s ease;
+font-size: 1rem;
+line-height: 1.6rem;
+}
+
+.lead {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.versalone {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1px;
+}
+
+.versaltwo {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1px;
+}
+
+.medium {
+    font-weight: 400;
+  }
+
+.bold {
+    font-weight: 700;
+  }
+
+.container {
+  display: grid;
+  width: auto;
+  height: 600px;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: ;
+  grid-column-gap: 1.818%;
+  grid-row-gap: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container_hcd {
+  display: grid;
+  width: auto;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: ;
+  grid-column-gap: 1.818%;
+  grid-row-gap: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+.container_fullwidth {
+  display: grid;
+  width: auto;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: ;
+  grid-column-gap: 1.818%;
+  grid-row-gap: 0;
+  }
+
+.container_footer {
+  display: grid;
+  width: auto;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: ;
+  grid-column-gap: 1.818%;
+  grid-row-gap: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+    }
+
+.columnpulldown {
+  grid-column-start:1;
+  grid-column-end:5;
+}
+
+.columnslides {
+  grid-column-start:7;
+  grid-column-end:14;
+}
+
+.columnintroone {
+  grid-column-start:7;
+  grid-column-end:14;
+}
+
+.columnfullwidth {
+  grid-column-start:1;
+  grid-column-end:14;
+}
+
+.columngrid {
+  grid-column-start:1;
+  grid-column-end:14;
+}
+
+.columnhalf {
+  grid-column-start:1;
+  grid-column-end:7;
+}
+
+.columnfooter {
+  grid-column-start:1;
+  grid-column-end:14;
+}
+
+.mySlides {
+  display:none;
+}
+
+/* animation beratung */
+
+input[type="checkbox"] {
+
+display: none;
+
+}
+
+
+label {
+
+cursor: pointer;
+
+
+}
+
+div.animationberatung {
+
+overflow: hidden;
+height: 30px;
+width: 100%;
+border-radius: 20px;
+border: 2px solid #D5D5D5;
+background-color: white;
+
+transition: height 0.5s ease;
+
+}
+
+div.animationberatung:hover {
+
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+
+}
+
+input:not(:checked)+label>div.animationberatung {
+
+ height: 30px;
+
+}
+
+input:checked+label>div.animationberatung {
+
+height: 200px;
+border-radius: 20px;
+transform-origin: top left;
+border-color: #DF7976;
+background-color: white;
+box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+
+}
+
+/* pulldown animation beratung */
+
+input:checked+label>div.animationberatung>div.openpulldown:after {
+
+content: "";
+display: inline-block;
+border: 6px solid transparent;
+border-color: transparent transparent #DF7976 transparent;
+transform: translateY(4px);
+margin-right: 10px;
+
+
+}
+
+input:not(:checked)+label>div.animationberatung>div.openpulldown:after {
+
+content: "";
+display: inline-block;
+border: 6px solid transparent;
+border-color: #DF7976 transparent transparent transparent;
+transform: translateY(10px);
+margin-right: 10px;
+
+}
+
+input:checked+label>div.animationberatung>div.contentbox>a.link:hover {
+
+background-color: #EFEFEF;
+
+}
+
+div.contentbox {
+  font-size: 1rem;
+  color: #5A5A5A;
+}
+
+.marginpulldown {
+  margin-top: 1.5rem;
+}
+
+.marginhead {
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+}
+
+.marginleft {
+  margin-left: 20px;
+}
+
+.textright {
+  text-align: right;
+}
+
+.floatclear {
+  clear:left
+}
+
+.fontbox {
+  margin-top: 8px;
+  float: left;
+}
+
+/* pulldown animation beratung */
+
+a.link {
+  display:block;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  width: 100%;
+}
+
+a.linkpage {
+  display:block;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+a.linkpage:hover {
+  color: #f19f86;
+}
+
+.red {
+  color: #DF7976;
+}
+
+.anthrazit {
+  color: #5A5A5A;
+}
+
+.white {
+  color: white;
+}
+
+.logo {
+  width: 170px;
+  padding-top: 1rem;
+}
+
+.iconslider {
+  width: 80px;
+}
+
+.iconinterview {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.margintop {
+  margin-top: 2rem;
+}
+
+.marginfill {
+  margin-top: 4rem;
+}
+
+.corporatecolorone {
+  color: #f19f86;
+}
+
+.background_footer {
+  background-color: #5A5A5A;
+  height: 150px;
+}

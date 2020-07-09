@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1024px) {
+
+  body {
+    width: auto;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 2rem;
+  }
+
+
+  .container {
+    display: grid;
+    width: auto;
+    height: 500px;
+    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+    grid-template-rows: ;
+    grid-column-gap: 1.818%;
+    grid-row-gap: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .columnslides {
+    grid-column-start:6;
+    grid-column-end:14;
+  }
+
+  .container_hcd {
+    display: grid;
+    width: auto;
+    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+    grid-template-rows: ;
+    grid-column-gap: 1.818%;
+    grid-row-gap: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    }
+
+  .container_fullwidth {
+    display: grid;
+    width: auto;
+    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+    grid-template-rows: ;
+    grid-column-gap: 1.818%;
+    grid-row-gap: 0;
+    }
+
+  .container_footer {
+    display: grid;
+    width: auto;
+    grid-template-columns: 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+    grid-template-rows: ;
+    grid-column-gap: 1.818%;
+    grid-row-gap: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    }
+
+    h1 {
+      font-family: 'Spartan', sans-serif;
+      font-size: 2.2rem;
+      line-height: 3.2rem;
+      margin: 0px;
+    }
+
+    .iconslider {
+      width: 50px;
+      margin-top: 110px;
+      margin-bottom: 20px;
+    }
+
+    .iconinterview {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      width: 170px;
+      padding-top: 0px;
+    }
+
+
+}
